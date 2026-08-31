@@ -1,18 +1,18 @@
-LTspice 26.0.1 for Windows
-Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\init_pulse.net
-Start Time: Sun Aug 30 11:20:56 2026
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\init_pulse.net
+Start Time: Mon Aug 31 17:14:05 2026
 solver = Normal
-Maximum thread count: 12
+Maximum thread count: 16
 tnom = 27
 temp = 27
-method = trap
+method = Gear
 Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.070 seconds.
+Total elapsed time: 0.045 seconds.
 
 Files loaded:
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\init_pulse.net
-C:\Users\USER\AppData\Local\LTspice\lib\sub\LTC5.lib
+C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\init_pulse.net
+C:\Users\shars\AppData\Local\LTspice\lib\sub\LTC5.lib
 
