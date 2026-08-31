@@ -1,0 +1,23 @@
+LTspice 26.0.2 for Windows
+Circuit: D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\Draft6.net
+Start Time: Sat Aug 22 21:45:52 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+WARNING: Node nc_04 is floating.
+
+Instance "m1:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m1:M2": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.174 seconds.
+
+Files loaded:
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\Draft6.net
+C:\Users\shars\AppData\Local\LTspice\lib\cmp\standard.bjt
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\si2301cds_ps Rev B.lib
+C:\Users\shars\AppData\Local\LTspice\lib\sub\LT1763.lib
+
