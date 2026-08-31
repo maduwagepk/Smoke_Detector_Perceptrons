@@ -1,11 +1,11 @@
 LTspice 26.0.2 for Windows
 Circuit: C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
-Start Time: Mon Aug 31 17:34:25 2026
+Start Time: Mon Aug 31 18:16:40 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
 temp = 27
-method = Gear
+method = trap
 Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
 Model "nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
 Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
@@ -25,16 +25,9 @@ Instance "m7:M1": Length shorter than recommended for a level 3 MOSFET.
 Instance "m7:M2": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
-Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
-Starting source stepping with srcstepmethod=0
-Starting source stepping with srcstepmethod=1
-Source stepping failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
-Starting Gmin stepping level 2
-Gmin stepping level 2 failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
-Starting source stepping with srcstepmethod=1, level 2
-Source stepping level 2 succeeded in finding the operating point.
+Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 13.175 seconds.
+Total elapsed time: 4.710 seconds.
 
 Files loaded:
 C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
@@ -44,6 +37,7 @@ C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\AO3400.mod
 C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\tlv9062.lib
 C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\si2301cds_ps Rev B.lib
 C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\tlv7031.lib
+C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\74hc_lib.lib
 C:\Users\shars\AppData\Local\LTspice\lib\sub\LT1763.lib
 C:\Users\shars\AppData\Local\LTspice\lib\sub\LTC5.lib
 C:\Users\shars\AppData\Local\LTspice\lib\sub\NE555.sub
