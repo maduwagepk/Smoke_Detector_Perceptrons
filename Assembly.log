@@ -1,8 +1,11 @@
-LTspice 26.0.2 for Windows
-Circuit: C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
-Start Time: Mon Aug 31 18:16:40 2026
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
+Start Time: Tue Sep  1 14:24:45 2026
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net(91): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
+X§U15 N030 N043 0 T2N7002AK_G0_00 ;§pnba 3)1)2
+                                         ^
 solver = Normal
-Maximum thread count: 16
+Maximum thread count: 12
 tnom = 27
 temp = 27
 method = trap
@@ -14,11 +17,9 @@ Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
 Model "nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
 C8: Increased Cpar to 1e-17
 C9: Increased Cpar to 1e-13
-C13: Increased Cpar to 1e-13
-C14: Increased Cpar to 4.7e-17
+Instance "m1:M2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m5:M1": Length shorter than recommended for a level 3 MOSFET.
 Instance "m5:M2": Length shorter than recommended for a level 3 MOSFET.
-Instance "m1:M2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m6:M1": Length shorter than recommended for a level 3 MOSFET.
 Instance "m6:M2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m7:M1": Length shorter than recommended for a level 3 MOSFET.
@@ -27,19 +28,20 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 4.710 seconds.
+Total elapsed time: 44.428 seconds.
 
 Files loaded:
-C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
-C:\Users\shars\AppData\Local\LTspice\lib\cmp\standard.dio
-C:\Users\shars\AppData\Local\LTspice\lib\cmp\standard.bjt
-C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\AO3400.mod
-C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\tlv9062.lib
-C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\si2301cds_ps Rev B.lib
-C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\tlv7031.lib
-C:\Users\shars\Documents\GitHub\Smoke_Detector_Perceptrons\74hc_lib.lib
-C:\Users\shars\AppData\Local\LTspice\lib\sub\LT1763.lib
-C:\Users\shars\AppData\Local\LTspice\lib\sub\LTC5.lib
-C:\Users\shars\AppData\Local\LTspice\lib\sub\NE555.sub
-C:\Users\shars\AppData\Local\LTspice\lib\sub\TLV431.sub
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
+C:\Users\USER\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\USER\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\AO3400.mod
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\tlv9062.lib
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\si2301cds_ps Rev B.lib
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\tlv7031.lib
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\74hc_lib.lib
+C:\Users\USER\AppData\Local\LTspice\lib\sub\Contrib\Toshiba\LVMOS\T2N7002AK_G0_00_enc.lib
+C:\Users\USER\AppData\Local\LTspice\lib\sub\LT1763.lib
+C:\Users\USER\AppData\Local\LTspice\lib\sub\LTC5.lib
+C:\Users\USER\AppData\Local\LTspice\lib\sub\NE555.sub
+C:\Users\USER\AppData\Local\LTspice\lib\sub\TLV431.sub
 
