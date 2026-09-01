@@ -1,8 +1,8 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
-Start Time: Tue Sep  1 14:24:45 2026
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net(91): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
-X§U15 N030 N043 0 T2N7002AK_G0_00 ;§pnba 3)1)2
+Start Time: Wed Sep  2 00:12:36 2026
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net(90): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
+X§U15 N030 N044 0 T2N7002AK_G0_00 ;§pnba 3)1)2
                                          ^
 solver = Normal
 Maximum thread count: 12
@@ -28,7 +28,7 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 44.428 seconds.
+Total elapsed time: 16.572 seconds.
 
 Files loaded:
 C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
