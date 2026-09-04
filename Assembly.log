@@ -1,8 +1,8 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
-Start Time: Wed Sep  2 00:12:36 2026
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net(90): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
-X§U15 N030 N044 0 T2N7002AK_G0_00 ;§pnba 3)1)2
+Start Time: Fri Sep  4 14:52:36 2026
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net(73): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
+X§U15 N030 N043 0 T2N7002AK_G0_00 ;§pnba 3)1)2
                                          ^
 solver = Normal
 Maximum thread count: 12
@@ -17,31 +17,32 @@ Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
 Model "nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
 C8: Increased Cpar to 1e-17
 C9: Increased Cpar to 1e-13
-Instance "m1:M2": Length shorter than recommended for a level 3 MOSFET.
+C10: Increased Cpar to 1e-13
 Instance "m5:M1": Length shorter than recommended for a level 3 MOSFET.
 Instance "m5:M2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m1:M2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m6:M1": Length shorter than recommended for a level 3 MOSFET.
 Instance "m6:M2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m7:M1": Length shorter than recommended for a level 3 MOSFET.
 Instance "m7:M2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m2:M2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m3:M2": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 16.572 seconds.
-
-Files loaded:
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly.net
-C:\Users\USER\AppData\Local\LTspice\lib\cmp\standard.dio
-C:\Users\USER\AppData\Local\LTspice\lib\cmp\standard.bjt
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\AO3400.mod
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\tlv9062.lib
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\si2301cds_ps Rev B.lib
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\tlv7031.lib
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\74hc_lib.lib
-C:\Users\USER\AppData\Local\LTspice\lib\sub\Contrib\Toshiba\LVMOS\T2N7002AK_G0_00_enc.lib
-C:\Users\USER\AppData\Local\LTspice\lib\sub\LT1763.lib
-C:\Users\USER\AppData\Local\LTspice\lib\sub\LTC5.lib
-C:\Users\USER\AppData\Local\LTspice\lib\sub\NE555.sub
-C:\Users\USER\AppData\Local\LTspice\lib\sub\TLV431.sub
-
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955596472e-06 to 6.6025699955606475e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955636477e-06 to 6.6025699955646480e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955676482e-06 to 6.6025699955686486e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955716488e-06 to 6.6025699955726491e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955726491e-06 to 6.6025699955736495e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955806493e-06 to 6.6025699955816497e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955876492e-06 to 6.6025699955886496e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955906494e-06 to 6.6025699955916498e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955916498e-06 to 6.6025699955926501e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699955996500e-06 to 6.6025699956006503e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699956146501e-06 to 6.6025699956156504e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699956206505e-06 to 6.6025699956216508e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699956216508e-06 to 6.6025699956226512e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699956266526e-06 to 6.6025699956276529e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.6025699956406540e-06 to 6.6025699956416544e-06 seconds.
