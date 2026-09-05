@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_realtime.net
-Start Time: Fri Sep  4 16:36:32 2026
+Start Time: Sat Sep  5 08:04:14 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -61,7 +61,7 @@ Warning: Simulation tolerance relaxed to achieve convergence from 7.066668459586
 Warning: Simulation tolerance relaxed to achieve convergence from 7.0666684595876796e-06 to 7.0666684595886799e-06 seconds.
 Warning: Simulation tolerance relaxed to achieve convergence from 7.0666684595896803e-06 to 7.0666684595906806e-06 seconds.
 Warning: Simulation tolerance relaxed to achieve convergence from 7.0666684595906806e-06 to 7.0666684595916810e-06 seconds.
-Total elapsed time: 287.940 seconds.
+Total elapsed time: 170.622 seconds.
 
 Files loaded:
 C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_realtime.net
