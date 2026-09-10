@@ -1,0 +1,6 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\oscillator_new.net
+Start Time: Wed Sep  9 20:39:25 2026
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\oscillator_new.net(18): This sub-circuit name is not defined.
+X§U3 N006 0 NC_01 N001 0 74HC86 ;§pnba A)B)Y)VCC)GND
+                         ^^^^^^
