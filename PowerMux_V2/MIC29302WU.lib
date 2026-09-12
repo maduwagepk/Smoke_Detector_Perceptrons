@@ -1,0 +1,27 @@
+* MIC29302WU simplified 5V LDO model
+* Pins: EN IN GND OUT ADJ
+* System-level model for this project
+
+.SUBCKT MIC29302WU EN IN GND OUT ADJ
+
+.param VREG=5
+.param VDROP=0.40
+.param RON=0.05
+
+* Enable
+B_EN EN_OK 0 V={if(V(EN)>1,1,0)}
+
+* Regulated output with dropout
+B_LDO NDRV 0 V={
++ if(V(EN)>1,
++ min(V(IN)-VDROP,VREG),
++ 0)
++ }
+
+R_SER NDRV OUT {RON}
+
+* ADJ reference representation
+R_ADJ OUT ADJ 1G
+B_REF ADJ 0 V={if(V(EN)>1,1.24,0)}
+
+.ENDS MIC29302WU

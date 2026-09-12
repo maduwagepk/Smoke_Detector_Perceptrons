@@ -1,0 +1,127 @@
+LTspice 26.0.2 for Windows
+Circuit: D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\PowerMux_Claude.net
+Start Time: Wed Sep  9 16:33:41 2026
+Options:reltol=0.01
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+reltol = 0.01
+Instance "m1:M1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m2:M1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m3:M1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m4:M1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m5:M1": Width narrower than recommended for a level 3 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+Changing Tseed to 1.17188e-09
+Changing Tseed to 1.17188e-11
+Changing Tseed to 1.17188e-08
+Changing Tseed to 1.17188e-12
+Changing Tseed to 1.17188e-07
+Changing Tseed to 1.17188e-13
+Changing Tseed to 1.17188e-06
+Changing Tseed to 1.17188e-14
+Changing Tseed to 1.17188e-05
+Changing Tseed to 1.17188e-15
+Changing Tseed to 0.000117188
+Changing Tseed to 1.17188e-16
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Warning: Simulation tolerance relaxed to achieve convergence from 0.0000000000000000e+00 Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Changing Tseed to 1e-12
+Changing Tseed to 1e-24
+Changing Tseed to 1e-17
+Changing Tseed to 1e-19
+Changing Tseed to 1e-16
+Changing Tseed to 1e-20
+Changing Tseed to 1e-15
+Changing Tseed to 1e-21
+Changing Tseed to 1e-14
+Changing Tseed to 1e-22
+Changing Tseed to 1e-13
+Changing Tseed to 1e-23
+Singular matrix:  Check nodes bat_sw_gate and u2:45
+   Iteration No. 4
+Total elapsed time: 0.000 seconds.
+Singular matrix:  check nodes bat_sw_gate and u2:45
+   Iteration No. 4

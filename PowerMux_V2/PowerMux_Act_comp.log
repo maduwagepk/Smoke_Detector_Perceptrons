@@ -1,0 +1,44 @@
+LTspice 26.0.2 for Windows
+Circuit: D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\PowerMux_Act_comp.net
+Start Time: Wed Sep  9 09:31:59 2026
+Options:reltol=0.01
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+reltol = 0.01
+Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Instance "m1:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m1:M2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m2:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m2:M2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m3:M1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m3:M2": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Starting source stepping with srcstepmethod=1
+Source stepping failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Starting Gmin stepping level 2
+Gmin stepping level 2 failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=1, level 2
+Starting source stepping with srcstepmethod=0, level 2
+Source stepping level 2 failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Pseudo Transient succeeded in finding the operating point at 502.884 ms
+Total elapsed time: 67.619 seconds.
+
+Files loaded:
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\PowerMux_Act_comp.net
+C:\Users\shars\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\shars\AppData\Local\LTspice\lib\cmp\standard.bjt
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\si2301cds_ps Rev B.lib
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\tlv9062.lib
+C:\Users\shars\AppData\Local\LTspice\lib\sub\LT1763.lib
+
