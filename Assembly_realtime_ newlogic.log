@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_realtime_ newlogic.net
-Start Time: Wed Sep  9 11:15:09 2026
+Start Time: Sat Sep 12 16:39:55 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -31,9 +31,36 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019317970720e-06 to 5.3000019317980723e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019317980723e-06 to 5.3000019317990727e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318010725e-06 to 5.3000019318020729e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318020729e-06 to 5.3000019318030732e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318200731e-06 to 5.3000019318210735e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318310736e-06 to 5.3000019318320739e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318320739e-06 to 5.3000019318330743e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318330743e-06 to 5.3000019318340746e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318370748e-06 to 5.3000019318380751e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318380751e-06 to 5.3000019318390755e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318470757e-06 to 5.3000019318480761e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318550768e-06 to 5.3000019318560771e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019318720776e-06 to 5.3000019318730779e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319100789e-06 to 5.3000019319110792e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319160801e-06 to 5.3000019319170804e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319180808e-06 to 5.3000019319190811e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319200815e-06 to 5.3000019319210818e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319210818e-06 to 5.3000019319220822e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319380826e-06 to 5.3000019319390830e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319410828e-06 to 5.3000019319420832e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319450842e-06 to 5.3000019319460845e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319480844e-06 to 5.3000019319490847e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319490847e-06 to 5.3000019319500851e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319500851e-06 to 5.3000019319510854e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319530853e-06 to 5.3000019319540856e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319550860e-06 to 5.3000019319560863e-06 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 5.3000019319590865e-06 to 5.3000019319600868e-06 seconds.
 
 Simulation stopped by user.
-Total elapsed time: 115.415 seconds.
+Total elapsed time: 6.733 seconds.
 
 Files loaded:
 C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_realtime_ newlogic.net
