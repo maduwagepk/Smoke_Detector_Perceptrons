@@ -1,0 +1,29 @@
+LTspice 26.0.2 for Windows
+Circuit: D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\PowerMux_CC.net
+Start Time: Sat Sep 12 16:22:08 2026
+Options:reltol=0.01
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = Gear
+reltol = 0.01
+C1: Increased Cpar to 4.7e-10
+C2: Increased Cpar to 4.7e-11
+C3: Increased Cpar to 2.2e-13
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 2.237 seconds.
+
+Files loaded:
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\PowerMux_CC.net
+C:\Users\shars\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\shars\AppData\Local\LTspice\lib\cmp\standard.bjt
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\si2301cds_ps Rev B.lib
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\tlv9062.lib
+C:\Users\shars\AppData\Local\LTspice\lib\sub\FDN340P.mod
+D:\Study\ENTC\0 Tronic Projects\Sem 03\Analog\Powersupply\IRF4905.spi
+C:\Users\shars\AppData\Local\LTspice\lib\sub\LT1763.lib
+
