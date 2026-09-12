@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\init_pulse.net
-Start Time: Fri Sep  4 08:00:35 2026
+Start Time: Thu Sep 10 13:51:45 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -11,7 +11,7 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.254 seconds.
+Total elapsed time: 0.233 seconds.
 
 Files loaded:
 C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\init_pulse.net
