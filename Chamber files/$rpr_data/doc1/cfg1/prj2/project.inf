@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>smoke1</name>
+	<uuid>1439021c-113c-427f-9e8d-3fcb0ff2ba62</uuid>
+	<directory>prj2</directory>
+	<vwr_res_files_dir>2</vwr_res_files_dir>
+	<geom_db_uuid>139937c6-dcd9-41e3-bbc7-e8e569457242</geom_db_uuid>
+	<gdb_light_uuid>fc1a86ec-8d38-4323-b2c4-cb462cf01ac3</gdb_light_uuid>
+	<model_geom_uuid/>
+	<template_id/>
+</project>
