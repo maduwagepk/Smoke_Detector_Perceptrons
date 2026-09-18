@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_after_bb.net
-Start Time: Tue Sep 15 21:49:01 2026
+Start Time: Fri Sep 18 16:19:19 2026
 Options:reltol=0.01
 C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_after_bb.net(119): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
 X§U9 N020 N047 0 T2N7002AK_G0_00 ;§pnba 3)1)2
@@ -257,7 +257,7 @@ Changing Tseed to 1e-23
 Changing Tseed to 1e-12
 Changing Tseed to 1e-24
 to 2.0000000000000001e-18 seconds.
-Total elapsed time: 31.066 seconds.
+Total elapsed time: 24.645 seconds.
 
 Files loaded:
 C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_after_bb.net
