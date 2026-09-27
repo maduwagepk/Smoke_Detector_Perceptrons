@@ -1,8 +1,8 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_logic_update.net
-Start Time: Wed Sep 23 15:18:29 2026
+Circuit: C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_logic_update_filter_removed.net
+Start Time: Fri Sep 25 14:04:48 2026
 Options:reltol=0.01
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_logic_update.net(116): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_logic_update_filter_removed.net(116): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
 X§U9 N020 N048 0 T2N7002AK_G0_00 ;§pnba 3)1)2
                                         ^
 solver = Alternate
@@ -23,6 +23,9 @@ C15: Increased Cpar to 1e-13
 C17: Increased Cpar to 4.7e-10
 C19: Increased Cpar to 4.7e-11
 C20: Increased Cpar to 2.2e-13
+WARNING: Node n040 is floating.
+WARNING: Node n037 is floating.
+
 Instance "m2:M2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m1:M2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m4:M2": Length shorter than recommended for a level 3 MOSFET.
@@ -257,10 +260,10 @@ Changing Tseed to 1e-23
 Changing Tseed to 1e-12
 Changing Tseed to 1e-24
 to 2.0000000000000001e-18 seconds.
-Total elapsed time: 33.576 seconds.
+Total elapsed time: 54.105 seconds.
 
 Files loaded:
-C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_logic_update.net
+C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\Assembly_logic_update_filter_removed.net
 C:\Users\USER\AppData\Local\LTspice\lib\cmp\standard.dio
 C:\Users\USER\AppData\Local\LTspice\lib\cmp\standard.bjt
 C:\Users\USER\Documents\GitHub\Smoke_Detector_Perceptrons\AO3400.mod
